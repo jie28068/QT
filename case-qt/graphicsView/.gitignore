@@ -1,0 +1,17 @@
+*.suo
+*.user
+*.sdf
+*.exp
+*.ilk
+*.pdb
+*.obj
+*.tlog
+*.intermediate.manifest
+*.opensdf
+*.log
+*.ipch
+*.vspscc
+*.aps
+
+.vscode
+build*

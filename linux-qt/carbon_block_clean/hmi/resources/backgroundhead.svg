@@ -1,0 +1,12 @@
+<svg id="工作模式-面板-背景-头部" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="44" viewBox="0 0 298 44">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#144591"/>
+      <stop offset="1" stop-color="#195ca5"/>
+    </linearGradient>
+  </defs>
+  <g id="减去_137" data-name="减去 137" fill="url(#linear-gradient)">
+    <path d="M 297.5 43.5 L 0.5 43.5 L 0.5 0.5 L 297.5 0.5 L 297.5 43.5 Z" stroke="none"/>
+    <path d="M 1 1 L 1 43 L 297 43 L 297 1 L 1 1 M 0 0 L 298 0 L 298 44 L 0 44 L 0 0 Z" stroke="none" fill="#20c1ff"/>
+  </g>
+</svg>

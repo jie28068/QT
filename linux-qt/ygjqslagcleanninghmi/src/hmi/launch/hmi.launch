@@ -1,0 +1,4 @@
+<launch>
+  <param name="/config_path" value="$(find hmi_qt)/../../config/" />
+  <node pkg="hmi_qt" type="hmi_qt" name="hmi_qt" output="screen" />
+</launch>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="289" viewBox="0 0 960 289">
+  <defs>
+    <filter id="联合_15" x="0" y="229" width="60" height="60" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="减去_2" x="908" y="237" width="52" height="52" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="系统状态-面板-背景-内容" transform="translate(158.574 -173.629)">
+    <g id="减去_138" data-name="减去 138" transform="translate(-140.574 173.629)" fill="none">
+      <path d="M900,271H0V0H924V247l-24,24h0Z" stroke="none"/>
+      <path d="M 899.5867919921875 269.9998168945312 L 923.0003051757812 246.5861663818359 L 923.000244140625 0.9998123645782471 L 1.000213146209717 0.9996949434280396 L 1.000096440315247 269.9998168945312 L 899.5867919921875 269.9998168945312 M 900.0010375976562 270.9998168945312 L 900.0009155273438 270.9998168945312 L 900.0010375976562 270.9998168945312 Z M 900.0010375976562 270.9998168945312 L 9.597598545951769e-05 270.9998168945312 L 0.000213623046875 -0.00030517578125 L 924.000244140625 -0.0001875287271104753 L 924.0003051757812 247.0002899169922 L 900.0009155273438 270.9998168945312 Z" stroke="none" fill="#73f7ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -158.57, 173.63)" filter="url(#联合_15)">
+      <path id="联合_15-2" data-name="联合 15" d="M0,24V0H4V20H24v4Z" transform="translate(18 247)" fill="#20c1ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -158.57, 173.63)" filter="url(#减去_2)">
+      <path id="减去_2-2" data-name="减去 2" d="M16,16H0L16,0V16Z" transform="translate(926 255)" fill="#20c1ff"/>
+    </g>
+  </g>
+</svg>

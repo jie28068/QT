@@ -1,0 +1,190 @@
+{
+    "editor.fontFamily": "Consolas, '楷体', monospace",
+    "C_Cpp.renameRequiresIdentifier": false,
+    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+    //***粒子效果***//
+    "powermode.enabled": true,
+    "powermode.shake.enabled": false,
+    "powermode.combo.timerEnabled": "hide",
+    "powermode.combo.counterEnabled": "hide",
+    "security.workspace.trust.untrustedFiles": "open",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.formatOnSave": true,
+    "cmake.configureOnOpen": true,
+    "git.confirmSync": false,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "workbench.iconTheme": "vscode-icons",
+    "git.openRepositoryInParentFolders": "never",
+    "python.defaultInterpreterPath": "d:\\Python\\python.exe",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "editor.minimap.size": "fit",
+    "editor.minimap.enabled": false,
+    "chatgpt.lang": "cn",
+    "chatgpt.temperature": 0.5,
+    "cmake.showOptionsMovedNotification": false,
+    "explorer.confirmDelete": false,
+    "cmake.options.statusBarVisibility": "visible",
+    "tabnine.experimentalAutoImports": true,
+    "editor.indentSize": "tabSize",
+    "editor.fontLigatures": false,
+    "editor.codeActionsOnSave": {},
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "vscode-pets.petSize": "medium",
+    "Lingma.LocalStoragePath": "C:\\Users\\KL\\.lingma",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "backgroundCover.sizeModel": "cover",
+    "explorer.confirmDragAndDrop": false,
+    "cSpell.userWords": [
+        "mainctrlcode"
+    ],
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+    "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+    "backgroundCover.opacity": 0.2,
+    "backgroundCover.imagePath": "/home/ray/Pictures/壁纸/贞德.jpg",
+    "typescript.locale": "zh-CN",
+    "workbench.editorAssociations": {
+        "*.ui": "default"
+    },
+    //todo-tree 标签配置
+    "todo-tree.regex.regex": "((%|#|//|<!--|^\\s*\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+    "todo-tree.general.tags": [
+        "todo",
+        "bug",
+        "tag",
+        "done",
+        "mark",
+        "test",
+        "update",
+        "fixme"
+    ],
+    "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "#000000",
+        "background": "#F9D569",
+        "icon": "check",
+        "rulerColour": "#F9D569",
+        "type": "tag",
+        "iconColour": "#F9D569"
+    },
+    "todo-tree.highlights.customHighlight": {
+        //todo 	
+        "todo": {
+            "icon": "alert", //标签样式
+            "background": "#F9D569", //背景色
+            "rulerColour": "#F9D569", //外框颜色
+            "iconColour": "#F9D569" //标签颜色
+        },
+        //bug		必须要修复的BUG
+        "bug": {
+            "background": "#E36777",
+            "icon": "bug",
+            "rulerColour": "#E36777",
+            "iconColour": "#E36777"
+        },
+        //tag		标签
+        "tag": {
+            "background": "#9FD8FF",
+            "icon": "tag",
+            "rulerColour": "#9FD8FF",
+            "iconColour": "#9FD8FF",
+            "rulerLane": "full"
+        },
+        //done		已完成的功能点
+        "done": {
+            "background": "#5eec95",
+            "icon": "verified",
+            "rulerColour": "#5eec95",
+            "iconColour": "#5eec95"
+        },
+        //mark     	  需要注意的地方
+        "mark": {
+            "background": "#f90",
+            "icon": "note",
+            "rulerColour": "#f90",
+            "iconColour": "#f90"
+        },
+        //test		需要测试的地方
+        "test": {
+            "background": "#C39EE2",
+            "icon": "flame",
+            "rulerColour": "#C39EE2",
+            "iconColour": "#C39EE2"
+        },
+        //update  	  需要升级的地方
+        "update": {
+            "background": "#F690AA",
+            "icon": "sync",
+            "rulerColour": "#F690AA",
+            "iconColour": "#F690AA"
+        },
+        //fixme		需要修复的问题
+        "fixme": {
+            "background": "#FFB599",
+            "icon": "tools",
+            "rulerColour": "#FFB599",
+            "iconColour": "#FFB599"
+        }
+    },
+    "todo-tree.tree.expanded": true,
+    "todo-tree.tree.buttons.export": true,
+    //todo-tree 配置结束
+}

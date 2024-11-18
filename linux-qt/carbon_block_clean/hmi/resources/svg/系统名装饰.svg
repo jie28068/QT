@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1750" height="86" viewBox="0 0 1750 86">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="1" r="1.41" gradientTransform="matrix(0, -1, 0.387, 0, 0.113, 1.5)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#20c1ff" stop-opacity="0.239"/>
+      <stop offset="1" stop-color="#162033" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.99" y1="1" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a2ff"/>
+      <stop offset="0.229" stop-color="#145ab7"/>
+      <stop offset="1" stop-color="#0d1420"/>
+    </linearGradient>
+    <filter id="减去_101" x="647.213" y="29" width="58.109" height="56.999" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.01" y1="1" x2="1" y2="1" xlink:href="#linear-gradient"/>
+    <filter id="减去_101-2" x="1044.68" y="28.999" width="58.109" height="56.999" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_707" x="737" y="48" width="276" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-3"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_707-2" x="666" y="47" width="140" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-4"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_707-3" x="944" y="47" width="140" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-5"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="系统名装饰" transform="translate(-85 0)">
+    <path id="减去_105" data-name="减去 105" d="M-16077.009-4453H-17090l634.322,0-17.547-21H-17090l0-47h1647v47h-616.457l-17.551,21Z" transform="translate(17226.504 4521.001)" fill="url(#radial-gradient)"/>
+    <g id="组_823" data-name="组 823" transform="translate(0 -3)">
+      <g id="组_820" data-name="组 820" transform="translate(0 0)">
+        <g id="组_603" data-name="组 603" transform="translate(-64.027)">
+          <rect id="矩形_707-4" data-name="矩形 707" width="669" height="2" transform="translate(149.027 50)" fill="url(#linear-gradient)"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 85, 3)" filter="url(#减去_101)">
+          <path id="减去_101-3" data-name="减去 101" d="M-16989.678-4476h-4l-18.113-21h4l18.105,21Z" transform="translate(17677 4544)" fill="#20c1ff"/>
+        </g>
+      </g>
+      <g id="组_821" data-name="组 821" transform="translate(1079.678 50)">
+        <g id="组_603-2" data-name="组 603" transform="translate(86.664 0)">
+          <rect id="矩形_707-5" data-name="矩形 707" width="669" height="2" transform="translate(-0.342)" fill="url(#linear-gradient-2)"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -994.68, -47)" filter="url(#减去_101-2)">
+          <path id="减去_101-4" data-name="减去 101" d="M22.109,0h-4L0,21H4L22.107,0Z" transform="translate(1084.79 68) rotate(180)" fill="#20c1ff"/>
+        </g>
+      </g>
+      <g id="组_832" data-name="组 832" transform="translate(840.322 68.518)">
+        <g transform="matrix(1, 0, 0, 1, -755.32, -65.52)" filter="url(#矩形_707)">
+          <rect id="矩形_707-6" data-name="矩形 707" width="240" height="2" transform="translate(755 66)" fill="#1981e4"/>
+        </g>
+      </g>
+      <g id="组_822" data-name="组 822" transform="translate(768.656 67.518)">
+        <g transform="matrix(1, 0, 0, 1, -683.66, -64.52)" filter="url(#矩形_707-2)">
+          <rect id="矩形_707-7" data-name="矩形 707" width="104" height="3" transform="translate(684 65)" fill="#1fc0ff"/>
+        </g>
+      </g>
+      <g id="组_833" data-name="组 833" transform="translate(1047 67.518)">
+        <g transform="matrix(1, 0, 0, 1, -962, -64.52)" filter="url(#矩形_707-3)">
+          <rect id="矩形_707-8" data-name="矩形 707" width="104" height="3" transform="translate(962 65)" fill="#1fc0ff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

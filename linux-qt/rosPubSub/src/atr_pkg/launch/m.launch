@@ -1,0 +1,7 @@
+<launch>
+
+    <!-- <node pkg= "ssr_pkg" type="chao_node" name="chao_node"/> -->
+    <!-- <node pkg= "sp_pkg" type="zha_node" name="zha_node" launch-prefix="gnome-terminal -e"/> -->
+    <node pkg= "atr_pkg" type="na_node" name="na_node" output="screen"/>
+
+</launch>

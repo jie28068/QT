@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BoardSettingWidget>
+ <combox>1</combox>
+ <line>c++</line>
+ <enable>2</enable>
+ <custom>2</custom>
+</BoardSettingWidget>

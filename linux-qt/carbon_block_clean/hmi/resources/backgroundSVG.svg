@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="334" height="289" viewBox="0 0 334 289">
+  <defs>
+    <filter id="联合_15" x="0" y="229" width="60" height="60" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="工作模式-面板-背景-内容" x="282" y="237" width="52" height="52" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="工作模式-面板-背景-内容-2" data-name="工作模式-面板-背景-内容" transform="translate(158.574 -173.629)">
+    <g id="减去_138" data-name="减去 138" transform="translate(-140.574 173.629)" fill="none">
+      <path d="M282.181,271H0V0H298V247l-24,24h8.181Z" stroke="none"/>
+      <path d="M 273.5845336914062 270.0004272460938 L 296.9999084472656 246.5859527587891 L 296.9999084472656 0.9996611475944519 L 0.9999774098396301 0.9996611475944519 L 0.9999774098396301 270.0004272460938 L 273.5845336914062 270.0004272460938 M 282.1810607910156 271.0004272460938 L -2.25736184802372e-05 271.0004272460938 L -2.25736184802372e-05 -0.0003388390177860856 L 297.9999084472656 -0.0003388390177860856 L 297.9999084472656 247.0001678466797 L 273.9996032714844 270.9995422363281 L 282.1810607910156 270.9984436035156 L 282.1810607910156 271.0004272460938 Z" stroke="none" fill="#73f7ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -158.57, 173.63)" filter="url(#联合_15)">
+      <path id="联合_15-2" data-name="联合 15" d="M0,24V0H4V20H24v4Z" transform="translate(18 247)" fill="#20c1ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -158.57, 173.63)" filter="url(#工作模式-面板-背景-内容)">
+      <path id="工作模式-面板-背景-内容-3" data-name="工作模式-面板-背景-内容" d="M16,16H0L16,0V16Z" transform="translate(300 255)" fill="#20c1ff"/>
+    </g>
+  </g>
+</svg>

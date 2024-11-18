@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="352" height="128" viewBox="0 0 352 128">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d73131"/>
+      <stop offset="1" stop-color="#812122"/>
+    </linearGradient>
+    <filter id="急停按钮-背景" x="0" y="0" width="352" height="128" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#ff221a" flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#急停按钮-背景)">
+    <g id="急停按钮-背景-2" data-name="急停按钮-背景" transform="translate(36 36)" stroke="#e69da5" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="280" height="56" stroke="none"/>
+      <rect x="0.5" y="0.5" width="279" height="55" fill="none"/>
+    </g>
+  </g>
+</svg>

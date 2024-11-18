@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="m">resource/images/m.jpg</file>
+        <file alias="shadow_left">resource/images/shadow_left.png</file>
+        <file alias="shadow_left_top">resource/images/shadow_left_top.png</file>
+        <file alias="shadow_top">resource/images/shadow_top.png</file>
+        <file alias="shadow_right_top">resource/images/shadow_right_top.png</file>
+        <file alias="shadow_right">resource/images/shadow_right.png</file>
+        <file alias="shadow_right_bottom">resource/images/shadow_right_bottom.png</file>
+        <file alias="shadow_bottom">resource/images/shadow_bottom.png</file>
+        <file alias="shadow_left_bottom">resource/images/shadow_left_bottom.png</file>
+    </qresource>
+</RCC>

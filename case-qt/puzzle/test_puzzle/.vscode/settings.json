@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "qdebug": "cpp",
+        "qwidget": "cpp",
+        "qmainwindow": "cpp",
+        "qlistview": "cpp",
+        "qcoreapplication": "cpp",
+        "qstringlist": "cpp",
+        "qstandardpaths": "cpp",
+        "qmessagebox": "cpp",
+        "qicon": "cpp",
+        "qmimedata": "cpp",
+        "qpixmap": "cpp",
+        "qrandomgenerator": "cpp",
+        "atomic": "cpp",
+        "memory": "cpp"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "cmake.debugConfig": {
+        "visualizerFile": "${workspaceFolder}/.vscode/Qt5.natvis",
+    },
+    "files.associations": {
+        "qslider": "cpp",
+        "qpushbutton": "cpp"
+    }
+}

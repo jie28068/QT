@@ -1,0 +1,100 @@
+{
+    "carbon_info": {
+        "bowl_y": "0.33",
+        "bowls": [
+            {
+                "bowl": {
+                    "bowl_depth": "0.11",
+                    "slot_angle": "-15",
+                    "work_name": "bowl1",
+                    "x": "0.34",
+                    "y": "0.33",
+                    "z": "0.625"
+                }
+            },
+            {
+                "bowl": {
+                    "bowl_depth": "0.11",
+                    "slot_angle": "-15",
+                    "work_name": "bowl2",
+                    "x": "0.68",
+                    "y": "0.33",
+                    "z": "0.625"
+                }
+            },
+            {
+                "bowl": {
+                    "bowl_depth": "0.11",
+                    "slot_angle": "-15",
+                    "work_name": "bowl3",
+                    "x": "1.02",
+                    "y": "0.33",
+                    "z": "0.625"
+                }
+            },
+            {
+                "bowl": {
+                    "bowl_depth": "0.11",
+                    "slot_angle": "-15",
+                    "work_name": "bowl4",
+                    "x": "1.36",
+                    "y": "0.33",
+                    "z": "0.625"
+                }
+            }
+        ],
+        "height": "0.64",
+        "length": "1.7",
+        "name": "model",
+        "steps": "0.55",
+        "type": "carbon",
+        "width": "0.66"
+    },
+    "global": {
+        "brush_knife_radius": "0.065",
+        "no_touch_carbon_vel_ori": "120",
+        "no_touch_carbon_vel_tcp": "0.6",
+        "normal_vel_ori": "60",
+        "normal_vel_tcp": "0.3",
+        "touch_carbon_vel_ori": "20",
+        "touch_carbon_vel_tcp": "222",
+        "type": "global"
+    },
+    "tool_info": {
+        "barrel_bottom_knife_tool": {
+            "x": "0.001",
+            "y": "0.31127",
+            "z": "0.4682"
+        },
+        "barrel_side_knife_tool": {
+            "x": "0.00257066",
+            "y": "0.32",
+            "z": "0.4682"
+        },
+        "main_knife_tool": {
+            "x": "0.0005",
+            "y": "2",
+            "z": "0.595"
+        },
+        "side_adjacent_small_knife_between": "0.222",
+        "side_knife_tool": {
+            "x": "0.319",
+            "y": "-0.00389",
+            "z": "0.2675"
+        },
+        "type": "tool"
+    },
+    "tra_list": [
+        {
+            "around_bowl_top": {
+                "around_bowl_radius": "33333.33",
+                "istoop": true,
+                "position": "top",
+                "top_face_work": "top_face_work",
+                "type": "tra",
+                "vel_ori": "100",
+                "vel_tcp": "0.5"
+            }
+        }
+    ]
+}

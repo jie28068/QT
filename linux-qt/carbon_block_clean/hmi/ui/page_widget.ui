@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Page_widget</class>
+ <widget class="QWidget" name="Page_widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1641</width>
+    <height>60</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widget_data{
+	border-image: url(:/images/resources/窗口界面-背景.png);
+}</string>
+  </property>
+  <widget class="QLabel" name="label_text_sum_items">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background:transparent</string>
+   </property>
+   <property name="text">
+    <string>每页10条，共xxx条数据</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_goto">
+   <property name="geometry">
+    <rect>
+     <x>1350</x>
+     <y>32</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>前往</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_page">
+   <property name="geometry">
+    <rect>
+     <x>1430</x>
+     <y>31</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background:transparent</string>
+   </property>
+   <property name="text">
+    <string>页</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pageLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1390</x>
+     <y>30</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

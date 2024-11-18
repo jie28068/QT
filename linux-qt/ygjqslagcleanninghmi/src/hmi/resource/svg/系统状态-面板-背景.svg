@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="961" height="332" viewBox="0 0 961 332">
+  <defs>
+    <filter id="联合_15" x="0" y="272" width="60" height="60" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="减去_2" x="909" y="280" width="52" height="52" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#144591"/>
+      <stop offset="1" stop-color="#195ca5"/>
+    </linearGradient>
+  </defs>
+  <g id="系统状态-面板-背景" transform="translate(158.574 -130.629)">
+    <g id="减去_138" data-name="减去 138" transform="translate(-140.574 130.629)" fill="none">
+      <path d="M900,314H0V0H924V290l-24,24h0Z" stroke="none"/>
+      <path d="M 899.5874633789062 312.9999694824219 L 923.0004272460938 289.5860900878906 L 923.0003051757812 0.9997297525405884 L 1.000182747840881 0.9997297525405884 L 1.000065803527832 312.9999694824219 L 899.5874633789062 312.9999694824219 M 900.0018310546875 313.9999694824219 L 900.001708984375 313.9999694824219 L 900.0018310546875 313.9999694824219 Z M 900.0018310546875 313.9999694824219 L 6.545840733451769e-05 313.9999694824219 L 0.00018310546875 -0.0002702349447645247 L 924.0003051757812 -0.0002702349447645247 L 924.0004272460938 290.0003051757812 L 900.001708984375 313.9999694824219 Z" stroke="none" fill="#73f7ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -158.57, 130.63)" filter="url(#联合_15)">
+      <path id="联合_15-2" data-name="联合 15" d="M0,24V0H4V20H24v4Z" transform="translate(18 290)" fill="#20c1ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -158.57, 130.63)" filter="url(#减去_2)">
+      <path id="减去_2-2" data-name="减去 2" d="M16,16H0L16,0V16Z" transform="translate(927 298)" fill="#20c1ff"/>
+    </g>
+    <g id="组_704" data-name="组 704" transform="translate(-140.574 130.629)">
+      <g id="减去_137" data-name="减去 137" fill="url(#linear-gradient)">
+        <path d="M 923.5 43.5 L 0.5 43.5 L 0.5 0.5 L 923.5 0.5 L 923.5 43.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 43 L 923 43 L 923 1 L 1 1 M 0 0 L 924 0 L 924 44 L 0 44 L 0 0 Z" stroke="none" fill="#20c1ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

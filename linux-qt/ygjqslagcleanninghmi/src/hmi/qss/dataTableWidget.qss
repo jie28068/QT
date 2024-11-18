@@ -1,0 +1,58 @@
+QLabel{
+color: rgb(128, 128, 128);
+background:transparent
+}
+
+QPushButton#previousButton, QPushButton#previousPageButton{
+border-radius: 10px;
+background-color:#1f69cc;
+image:  url(:/resource/page2/mipmap-xxxhdpi/向左-icon.png);
+}
+
+QPushButton#nextButton, QPushButton#nextPageButton{
+border-radius: 10px;
+image: url(:/resource/page2/mipmap-xxxhdpi/向右-icon.png);
+background-color:#1f69cc;
+}
+
+QPushButton#refreshButton{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color:#1f69cc;
+}
+
+QTableWidget, QTableView {
+color: rgb(255, 255, 255); 
+font-size: 20px;
+outline: none;
+border: none;
+background-color: #1B2E4A; /* 表格背景色 */
+selection-color: #036eb7; /* 选中文字颜色 */
+selection-background-color: #d1e0ef; /* 选中背景色 */
+}
+QTableWidget::item{
+    border: 1px solid #3386F4;
+}
+
+QHeaderView::section {
+    background-color: #20C1FF;
+}
+
+QHeaderView::section:horizontal {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: bold;
+    border-top: 1px solid #3386F4;
+    border-left: none;
+    border-right: 1px solid #3386F4;
+    border-bottom: 1px solid #3386F4;
+    height: 50px;
+}
+
+QHeaderView::section:vertical {
+    border-top: none;
+    border-left: 1px solid #3386F4;
+    border-right: 1px solid #3386F4;
+    border-bottom: 1px solid #3386F4;
+    #width: 20px;
+}

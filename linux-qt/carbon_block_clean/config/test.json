@@ -1,0 +1,35 @@
+{
+    "around_bowl_top": {
+        "around_bowl_radius": "0.145",
+        "type": "tra"
+    },
+    "bowl": {
+        "into_vel_ori": "10",
+        "type": "tra"
+    },
+    "carbon_info": {
+        "bowl_y": "0.33",
+        "type": "carbon"
+    },
+    "four_circle_slop": {
+        "bowl2_bowl3_angle": "-48.2",
+        "remote_bowl1_2_x": "0.511",
+        "type": "tra"
+    },
+    "four_circle_steps_and_corner": {
+        "type": "tra",
+        "length": "1.7",
+        "name": "model"
+    },
+    "global": {
+        "y": "0.33",
+        "z": "0.625",
+        "type": "global"
+    },
+    "no_cornel_surround": {
+        "type": "tra"
+    },
+    "tool_info": {
+        "type": "tool"
+    }
+}

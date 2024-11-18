@@ -1,0 +1,51 @@
+{
+    "cmake.debugConfig": {
+        "visualizerFile": "${workspaceFolder}/.vscode/Qt5.natvis",
+        "symbolSearchPath": "${env:Qt5_DIR}/bin",
+        "sourceFileMap": {
+            "c:\\Users\\qt\\work\\qt": "${env:Qt5_DIR}/../Src"
+        }
+    },
+    "files.associations": {
+        "iostream": "cpp",
+        "qdebug": "cpp",
+        "qwidget": "cpp",
+        "qmainwindow": "cpp",
+        "qlistview": "cpp",
+        "qcoreapplication": "cpp",
+        "qstringlist": "cpp",
+        "qstandardpaths": "cpp",
+        "qmessagebox": "cpp",
+        "qicon": "cpp",
+        "qmimedata": "cpp",
+        "qpixmap": "cpp",
+        "qrandomgenerator": "cpp",
+        "atomic": "cpp",
+        "memory": "cpp",
+        "qtoolbox": "cpp",
+        "qgridlayout": "cpp",
+        "qtoolbutton": "cpp",
+        "qgroupbox": "cpp",
+        "qlabel": "cpp",
+        "qcheckbox": "cpp",
+        "qfileinfolist": "cpp",
+        "qinputdialog": "cpp",
+        "qtreeview": "cpp",
+        "qstyleditemdelegate": "cpp",
+        "qdatetime": "cpp",
+        "qcontextmenuevent": "cpp",
+        "qfileinfo": "cpp",
+        "chrono": "cpp",
+        "variant": "cpp",
+        "xstring": "cpp",
+        "qpainter": "cpp",
+        "xiosbase": "cpp",
+        "forward_list": "cpp",
+        "ios": "cpp",
+        "list": "cpp",
+        "system_error": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp"
+    }
+}

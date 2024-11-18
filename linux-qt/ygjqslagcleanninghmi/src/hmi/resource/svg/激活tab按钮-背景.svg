@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="112" viewBox="0 0 220 112">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1d6cbc"/>
+      <stop offset="1" stop-color="#1981e4"/>
+    </linearGradient>
+    <filter id="激活tab按钮-背景" x="0" y="0" width="220" height="112" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#00a2ff" flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#激活tab按钮-背景)">
+    <g id="激活tab按钮-背景-2" data-name="激活tab按钮-背景" transform="translate(36 36)" stroke="#73f7ff" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="148" height="40" stroke="none"/>
+      <rect x="0.5" y="0.5" width="147" height="39" fill="none"/>
+    </g>
+  </g>
+</svg>

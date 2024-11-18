@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="RECTANGL">images/RECTANGL.BMP</file>
+        <file alias="ELLIPSE">images/ELLIPSE.BMP</file>
+        <file alias="718">images/718.bmp</file>
+        <file alias="LINE">images/LINE.BMP</file>
+        <file alias="818">images/818.bmp</file>
+        <file alias="526">images/526.bmp</file>
+        <file alias="528">images/528.bmp</file>
+        <file alias="108">images/108.bmp</file>
+        <file alias="132">images/132.bmp</file>
+        <file alias="FREEFORM">images/FREEFORM.BMP</file>
+        <file alias="UNGROUP">images/UNGROUP.BMP</file>
+        <file alias="800">images/800.bmp</file>
+        <file alias="824">images/824.bmp</file>
+        <file alias="rotateleft">images/rotateleft.png</file>
+        <file alias="rotateright">images/rotateright.png</file>
+        <file alias="zoomin">images/zoomin.png</file>
+        <file alias="zoomout">images/zoomout.png</file>
+        <file alias="420">images/420.bmp</file>
+        <file alias="128">images/128.bmp</file>
+        <file alias="08">images/08.JPG</file>
+        <file alias="Icon1242">images/Icon1242.ico</file>
+        <file alias="hmsetup">images/hmsetup.ico</file>
+        <file alias="212">images/212.bmp</file>
+        <file alias="224">images/224.bmp</file>
+        <file alias="fileprint">images/fileprint.png</file>
+    </qresource>
+</RCC>

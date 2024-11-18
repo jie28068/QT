@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "forward_list": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "qvboxlayout": "cpp",
+        "qslider": "cpp",
+        "qpushbutton": "cpp",
+        "chrono": "cpp",
+        "functional": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "xlocmon": "cpp",
+        "xtr1common": "cpp",
+        "qcolor": "cpp",
+        "qpalette": "cpp",
+        "qhboxlayout": "cpp",
+        "qapplication": "cpp"
+    }
+}

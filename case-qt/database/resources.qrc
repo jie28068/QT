@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="3">resource/images/3.jpg</file>
+        <file alias="4">resource/images/4.jpg</file>
+        <file alias="5">resource/images/5.jpg</file>
+        <file alias="8">resource/images/8.jpg</file>
+        <file alias="9">resource/images/9.jpg</file>
+        <file alias="m">resource/images/m.jpg</file>
+
+        <file alias="00">resource/images/00.jpg</file>
+        <file alias="open">resource/images/open.bmp</file>
+        <file alias="save1">resource/images/save1.bmp</file>
+        <file alias="add">resource/images/add.bmp</file>
+        <file alias="inster">resource/images/inster.bmp</file>
+        <file alias="delete">resource/images/delete.bmp</file>
+        <file alias="exit">resource/images/exit.bmp</file>
+        <file alias="103">resource/images/103.bmp</file>
+        <file alias="up">resource/images/up.bmp</file>
+        <file alias="ubdo">resource/images/ubdo.bmp</file>
+        <file alias="open3">resource/images/open3.bmp</file>
+        <file alias="124">resource/images/124.bmp</file>
+
+
+
+    </qresource>
+</RCC>

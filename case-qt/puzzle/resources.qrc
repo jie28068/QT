@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="1">resource/images/1.jpg</file>
+        <file alias="2">resource/images/2.jpg</file>
+        <file alias="3">resource/images/3.jpg</file>
+        <file alias="4">resource/images/4.jpg</file>
+        <file alias="5">resource/images/5.jpg</file>
+        <file alias="6">resource/images/6.jpg</file>
+        <file alias="7">resource/images/7.jpg</file>
+        <file alias="8">resource/images/8.jpg</file>
+        <file alias="9">resource/images/9.jpg</file>
+        <file alias="10">resource/images/10.jpg</file>
+        <file alias="11">resource/images/11.jpg</file>
+        <file alias="12">resource/images/12.jpg</file>
+        <file alias="m">resource/images/m.jpg</file>
+        <file alias="help">resource/images/help.md</file>
+    </qresource>
+</RCC>

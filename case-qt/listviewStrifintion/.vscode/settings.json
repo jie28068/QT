@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "qvboxlayout": "cpp",
+        "qwidget": "cpp",
+        "qpaintevent": "cpp",
+        "qmouseevent": "cpp"
+    }
+}

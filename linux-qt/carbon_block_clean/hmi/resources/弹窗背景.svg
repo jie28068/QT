@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="82" viewBox="0 0 280 82">
+  <g id="作业次数-背景框" transform="translate(0.27)">
+    <g id="矩形_758" data-name="矩形 758" transform="translate(-0.27)" fill="none" stroke="#3386f4" stroke-width="1">
+      <rect width="280" height="82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="279" height="81" fill="none"/>
+    </g>
+    <path id="联合_147" data-name="联合 147" d="M0,16V0H4V12H16v4Z" transform="translate(279.73 16) rotate(180)" fill="#00b9ff"/>
+    <path id="联合_147-2" data-name="联合 147" d="M0,0V16H4V4H16V0Z" transform="translate(279.73 82) rotate(180)" fill="#00b9ff"/>
+    <path id="联合_147-3" data-name="联合 147" d="M0,0V16H4V4H16V0Z" transform="translate(-0.27)" fill="#00b9ff"/>
+    <path id="联合_149" data-name="联合 149" d="M0,16V0H4V12H16v4Z" transform="translate(-0.27 66)" fill="#00b9ff"/>
+  </g>
+</svg>

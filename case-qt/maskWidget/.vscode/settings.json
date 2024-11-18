@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "qpainter": "cpp",
+        "qlabel": "cpp",
+        "qopenglwidget": "cpp"
+    }
+}

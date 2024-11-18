@@ -1,0 +1,28 @@
+{
+    "cmake.debugConfig": {
+        "visualizerFile": "${workspaceFolder}/.vscode/Qt5.natvis",
+        "symbolSearchPath": "${env:Qt5_DIR}/bin",
+        "sourceFileMap": {
+            "c:\\Users\\qt\\work\\qt": "${env:Qt5_DIR}/../Src"
+        }
+    },
+    "files.associations": {
+        "xstring": "cpp",
+        "cmath": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "qmainwindow": "cpp",
+        "qgraphicsscene": "cpp",
+        "xutility": "cpp",
+        "random": "cpp",
+        "qwidget": "cpp",
+        "qpainter": "cpp",
+        "qstyleoption": "cpp",
+        "qrandomgenerator": "cpp",
+        "qlist": "cpp",
+        "qgraphicsitem": "cpp",
+        "qgraphicsscenemouseevent": "cpp",
+        "xtree": "cpp"
+    }
+}

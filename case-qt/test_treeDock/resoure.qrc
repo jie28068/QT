@@ -1,0 +1,6 @@
+ <RCC>
+   <qresource prefix="/images">
+     <file alias="icon">icons/open3.bmp</file>>
+     <file alias="icon1">icons/824.bmp.bmp</file>>
+   </qresource>
+ </RCC>

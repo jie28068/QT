@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "qpushbutton": "cpp",
+        "qlistwidget": "cpp",
+        "qgroupbox": "cpp",
+        "qslider": "cpp",
+        "qaudioprobe": "cpp",
+        "qhboxlayout": "cpp",
+        "qvboxlayout": "cpp",
+        "qfile": "cpp",
+        "qqueue": "cpp"
+    },
+    "cmake.debugConfig": {
+        "visualizerFile": "${workspaceFolder}/.vscode/Qt5.natvis",
+        "symbolSearchPath": "C:\\Qt\\Qt5.15.2\\Qt\\5.15.2\\msvc2019_64\\bin",
+        "sourceFileMap": {
+            "c:\\Users\\qt\\work\\qt": "C:\\Qt\\Qt5.15.2\\Qt\\5.15.2\\Src"
+        }
+    }
+}

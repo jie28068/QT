@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="894" height="510" viewBox="0 0 894 510">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4b5362"/>
+      <stop offset="1" stop-color="#34393f"/>
+    </linearGradient>
+    <filter id="监控画面-背景" x="0" y="0" width="894" height="510" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#00b9ff" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#监控画面-背景)">
+    <g id="监控画面-背景-2" data-name="监控画面-背景" transform="translate(9 9)" stroke="#3386f4" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="876" height="492" stroke="none"/>
+      <rect x="0.5" y="0.5" width="875" height="491" fill="none"/>
+    </g>
+  </g>
+</svg>

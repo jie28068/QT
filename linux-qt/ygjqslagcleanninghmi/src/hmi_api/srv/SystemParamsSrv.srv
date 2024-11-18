@@ -1,0 +1,11 @@
+SystemParamsSrvType require_type    # 0: 读取 1: 更新工具偏移量 2: 更新工作时间间隔
+bool enable_clean_hole1  # 炉口1清渣使能
+bool enable_clean_hole2  # 炉口2清渣使能
+float32 work_timing_interval # 工作时间间隔(单位:分钟)
+geometry_msgs/Point workpiece_offset  # 工件偏移量
+---
+int32 ret
+bool enable_clean_hole1  # 炉口1清渣使能
+bool enable_clean_hole2  # 炉口2清渣使能
+float32 work_timing_interval # 工作时间间隔(单位:分钟)
+geometry_msgs/Point workpiece_offset  # 工件偏移量

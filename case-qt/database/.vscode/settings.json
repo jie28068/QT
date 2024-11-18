@@ -1,0 +1,29 @@
+{
+    "files.associations": {
+        "qapplication": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "qlayout": "cpp",
+        "qaction": "cpp",
+        "qlineedit": "cpp",
+        "qmenubar": "cpp",
+        "qstatusbar": "cpp",
+        "qmessagebox": "cpp",
+        "qplaintextedit": "cpp",
+        "qdateedit": "cpp",
+        "qfiledialog": "cpp",
+        "qdragenterevent": "cpp",
+        "qradiobutton": "cpp",
+        "qtableview": "cpp",
+        "xutility": "cpp",
+        "iterator": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "algorithm": "cpp",
+        "xmemory": "cpp",
+        "xlocmon": "cpp",
+        "format": "cpp"
+    }
+}

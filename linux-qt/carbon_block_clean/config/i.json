@@ -1,0 +1,204 @@
+{
+    "around_bowl_top": {
+        "around_bowl_radius": 0.145,
+        "position": "top",
+        "top_face_work": "nihao",
+        "type": "tra",
+        "vel_ori": true,
+        "vel_tcp": 0.5
+    },
+    "bowl": {
+        "into_vel_ori": 10,
+        "into_vel_tcp": 0.05,
+        "out_vel_ori": 20,
+        "out_vel_tcp": 0.1,
+        "position": "bowl",
+        "slot_into_step": 0.005,
+        "type": "tra"
+    },
+    "carbon_info": {
+        "nihao": true,
+        "bowl_y": 0.33,
+        "bowls": [
+            {
+                "bowl": {
+                    "bowl_depth": 0.11,
+                    "slot_angle": -15,
+                    "work_name": "bowl1",
+                    "x": 0.34,
+                    "y": 0.33,
+                    "z": 0.625
+                }
+            },
+            {
+                "bowl": {
+                    "bowl_depth": 0.11,
+                    "slot_angle": -15,
+                    "work_name": "bowl2",
+                    "x": 0.68,
+                    "y": 0.33,
+                    "z": 0.625
+                }
+            },
+            {
+                "bowl": {
+                    "bowl_depth": 0.11,
+                    "slot_angle": -15,
+                    "work_name": "bowl3",
+                    "x": 1.02,
+                    "y": 0.33,
+                    "z": 0.625
+                }
+            },
+            {
+                "bowl": {
+                    "bowl_depth": 0.11,
+                    "slot_angle": -15,
+                    "work_name": "bowl4",
+                    "x": 1.36,
+                    "y": 0.33,
+                    "z": 0.625
+                }
+            }
+        ],
+        "height": 0.64,
+        "length": 1.7,
+        "name": "model",
+        "steps": 0.55,
+        "type": "carbon",
+        "width": 0.66
+    },
+    "four_circle_slop": {
+        "bowl2_bowl3_angle": -48.2,
+        "inner_slop_circle_big_radius": 0.41,
+        "inner_slop_circle_small_radius": 0.262,
+        "insice_circle_angle": -48.8,
+        "left_slop_work": "left_slop_work",
+        "near_bowl1_2_x": 0.511,
+        "near_bowl1_2_y": -0.22,
+        "near_bowl2_3_x": 0.85,
+        "near_bowl2_3_y": -0.22,
+        "near_bowl3_4_x": 1.189,
+        "near_bowl3_4_y": -0.22,
+        "near_left_cicle_x": 0.32,
+        "near_left_cicle_y": 0.47,
+        "near_right_cicle_x": 1.38,
+        "near_right_cicle_y": 0.47,
+        "near_slop_work": "near_slop_work",
+        "out_circle_angle": -25.8,
+        "out_circle_radius": 0.252,
+        "out_circle_x_to_bowl": 0.02,
+        "out_slop_circle_radius": 0.314,
+        "position": "slop",
+        "remote_bowl1_2_x": 0.511,
+        "remote_bowl1_2_y": 0.88,
+        "remote_bowl2_3_x": 0.85,
+        "remote_bowl2_3_y": 0.88,
+        "remote_bowl3_4_x": 1.189,
+        "remote_bowl3_4_y": 0.88,
+        "remote_slop_work": "remote_slop_work",
+        "right_slop_work": "right_slop_work",
+        "romote_left_cicle_x": 0.32,
+        "romote_left_cicle_y": 0.19,
+        "romote_right_cicle_x": 1.38,
+        "romote_right_cicle_y": 0.19,
+        "two_circle_middle_angle": -50.5,
+        "type": "tra",
+        "vel_ori": 60,
+        "vel_tcp": 0.3
+    },
+    "four_circle_steps_and_corner": {
+        "brush_clean_corner_min_z": 0,
+        "inner_slop_circle_big_radius": 0.41,
+        "inner_slop_circle_small_radius": 0.262,
+        "left_near_corner_work": "left_near_corner_work",
+        "left_remote_corner_work": "left_remote_corner_work",
+        "left_steps_work": "left_steps_work",
+        "near_bowl1_2_x": 0.511,
+        "near_bowl1_2_y": -0.22,
+        "near_bowl2_3_x": 0.85,
+        "near_bowl2_3_y": -0.22,
+        "near_bowl3_4_x": 1.189,
+        "near_bowl3_4_y": -0.22,
+        "near_left_cicle_x": 0.32,
+        "near_left_cicle_y": 0.47,
+        "near_right_cicle_x": 1.38,
+        "near_right_cicle_y": 0.47,
+        "near_steps_work": "near_steps_work",
+        "out_circle_x_to_bowl": 0.02,
+        "out_slop_circle_radius": 0.314,
+        "position": "corner",
+        "remote_bowl1_2_x": 0.511,
+        "remote_bowl1_2_y": 0.88,
+        "remote_bowl2_3_x": 0.85,
+        "remote_bowl2_3_y": 0.88,
+        "remote_bowl3_4_x": 1.189,
+        "remote_bowl3_4_y": 0.88,
+        "remote_steps_work": "remote_steps_work",
+        "right_near_corner_work": "right_near_corner_work",
+        "right_remote_corner_work": "right_remote_corner_work",
+        "right_steps_work": "right_steps_work",
+        "romote_left_cicle_x": 0.32,
+        "romote_left_cicle_y": 0.19,
+        "romote_right_cicle_x": 1.38,
+        "romote_right_cicle_y": 0.19,
+        "type": "tra",
+        "vel_ori": 60,
+        "vel_tcp": 0.3
+    },
+    "global": {
+        "brush_knife_radius": 0.065,
+        "no_touch_carbon_vel_ori": 120,
+        "no_touch_carbon_vel_tcp": 0.6,
+        "normal_vel_ori": 60,
+        "normal_vel_tcp": 0.3,
+        "touch_carbon_vel_ori": 20,
+        "touch_carbon_vel_tcp": 222,
+        "type": "global"
+    },
+    "no_cornel_surround": {
+        "corner_length": 0.02,
+        "is_clean_surround_low": true,
+        "knife_left_dead_corner_dis": 0.09,
+        "knife_right_dead_corner_dis": 0.14,
+        "left_surround_work": "left_surround_work",
+        "min_knife_radius": 0.05,
+        "near_surround_work": "near_surround_work",
+        "position": "surround",
+        "remote_surround_work": "remote_surround_work",
+        "right_surround_work": "right_surround_work",
+        "safe_back_distance": 0.03,
+        "side_knife_radius": 0.155,
+        "surround_angle": 0,
+        "surround_clean_z_low": 0.21,
+        "surround_clean_z_middle": 0.405,
+        "type": "tra",
+        "vel_ori": 80,
+        "vel_tcp": 0.4
+    },
+    "tool_info": {
+        "barrel_bottom_knife_tool": {
+            "x": 0.001,
+            "y": 0.31127,
+            "z": 0.4682
+        },
+        "barrel_side_knife_tool": {
+            "x": 0.00257066,
+            "y": 0.32,
+            "z": 0.4682
+        },
+        "main_knife_tool": {
+            "x": 0.0005,
+            "y": 2,
+            "z": 0.595
+        },
+        "side_adjacent_small_knife_between": 0.222,
+        "side_knife_tool": {
+            "x": 0.319,
+            "y": -0.00389,
+            "z": 0.2675
+        },
+        "type": "tool"
+    },
+    "tra_list": []
+}

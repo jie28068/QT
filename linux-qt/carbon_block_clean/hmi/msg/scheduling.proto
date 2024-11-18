@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option go_package = "../service";
+
+// 调度系统接口
+package Scheduling;
+
+message SystemStatusReq {
+  string json_info = 1; // json数据
+}
+
+// 系统信息更新resp
+message SystemStatusResp {
+}
+
+message LogReq {
+  string level = 1;
+  string message = 2; /* 上传日志信息 */
+}
+
+// 系统信息更新resp
+message LogResp {
+}
+
+service StatusSend{
+  rpc SystemStatus (SystemStatusReq) returns (SystemStatusResp) {} // 系统状态
+}
+
+service LogSend{
+  rpc LogInfo (LogReq) returns (LogResp) {} // 系统状态
+}

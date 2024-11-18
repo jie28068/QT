@@ -1,0 +1,22 @@
+# 8号料口使能
+p8_enable: false
+# 9号料口使能
+p9_enable: false
+# 10号料口使能
+p10_enable: false
+# 实际坐标 x
+pose_x: 847.00
+# 实际坐标 y
+pose_y: 1500.00
+# 实际坐标 z
+pose_z: -350.00
+# 清渣次数
+count: 618
+# 清渣总次数
+total_count: 6
+# 基准坐标 x
+basic_pose_x: 847.00
+# 基准坐标 y
+basic_pose_y: 1500.00
+# 基准坐标 z
+basic_pose_z: -350.00

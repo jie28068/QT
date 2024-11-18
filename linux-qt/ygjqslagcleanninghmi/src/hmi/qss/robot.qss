@@ -1,0 +1,12 @@
+
+QPushButton[pusbuttonState="on"] {
+    border-image: url(:resource/svg/开关开.svg);
+    color: rgb(255, 255, 255);
+    background:transparent;
+}
+
+QPushButton[pusbuttonState="off"]{
+    border-image: url(:resource/svg/开关关.svg) no-repeat center;
+    color: rgb(255, 255, 255);
+    background:transparent;
+}

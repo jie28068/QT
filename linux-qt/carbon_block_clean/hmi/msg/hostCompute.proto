@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+
+// 上位机接口
+package HostCompute;
+
+message SchedulingRequest{
+  int32 task = 1; /* 1，请求炭块模版。 2，新生成炭块信息。  3，xxx。 */
+  string carbon_data = 2; // 新生成炭块信息
+}
+
+message SchedulingResponse{
+  string json_info = 1;//返回数据
+  string abnormal = 2; // 异常原因
+}
+
+service HostCompute{
+  // 调度
+  rpc Scheduling(SchedulingRequest) returns (SchedulingResponse){}
+}

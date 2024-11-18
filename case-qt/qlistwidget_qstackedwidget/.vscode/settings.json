@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "qgridlayout": "cpp",
+        "qsplitter": "cpp",
+        "qapplication": "cpp",
+        "qstackedwidget": "cpp"
+    }
+}

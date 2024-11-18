@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "qvboxlayout": "cpp",
+        "qpainterpath": "cpp",
+        "qlabel": "cpp",
+        "qdialog": "cpp"
+    }
+}

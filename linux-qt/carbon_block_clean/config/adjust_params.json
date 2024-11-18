@@ -1,0 +1,27 @@
+{
+    "mod1": {
+        "top_face_work": {
+            "compress_dis": 0,
+            "cut_dis": 0
+        }
+    },
+    "model": {
+        "left_steps_work": {
+            "compress_dis": 0,
+            "cut_dis": 0
+        },
+        "near_steps_work": {
+            "compress_dis": 0,
+            "cut_dis": 0
+        },
+        "remote_steps_work": {
+            "compress_dis": 0,
+            "cut_dis": 0
+        },
+        "right_steps_work": {
+            "compress_dis": 0,
+            "cut_dis": 0
+        }
+    }
+}
+

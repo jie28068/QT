@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="24" viewBox="0 0 48 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.017" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0f1e39"/>
+      <stop offset="1" stop-color="#18273d"/>
+    </linearGradient>
+  </defs>
+  <g id="开关关" transform="translate(-1762 -143)">
+    <g id="矩形_1273" data-name="矩形 1273" transform="translate(1762 143)" stroke="#4f6992" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="48" height="24" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="47" height="23" rx="11.5" fill="none"/>
+    </g>
+    <g id="椭圆_168" data-name="椭圆 168" transform="translate(1766 147)" fill="#8da1c1" stroke="#4f6992" stroke-width="2">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="7" fill="none"/>
+    </g>
+  </g>
+</svg>

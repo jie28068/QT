@@ -1,0 +1,315 @@
+global:
+  type: global
+  touch_carbon_vel_tcp: 0.05
+  touch_carbon_vel_ori: 20
+  no_touch_carbon_vel_tcp: 0.6
+  no_touch_carbon_vel_ori: 120
+  normal_vel_tcp: 0.3
+  normal_vel_ori: 60
+
+tool_info:
+  type: tool
+  main_knife_tool:
+    x: 0.0005
+    y: 0
+    z: 0.595
+  side_knife_tool:
+    x: 0.319
+    y: -0.00389
+    z: 0.2675
+    # 相邻小刀盘中心距离，即正五边形边长
+    side_adjacent_small_knife_between: 0.12343
+    # 侧刀半径 side_adjacent_small_knife_between * 0.5 / sin(36) + min_knife_radius
+    side_knife_radius: 0.155
+    # 侧刀上面小刀的半径
+    min_knife_radius: 0.05
+  barrel_side_knife_tool:
+    x: 0.00257066
+    y: 0.31127
+    z: 0.4682
+    # 刷刀半径
+    brush_top_radius: 0.04
+  barrel_bottom_knife_tool:
+    x: 0.00257066
+    y: 0.31127
+    z: 0.4682
+    # 刷刀半径
+    brush_knife_radius: 0.05
+
+# 前端生成炭块需要输入的信息
+carbon_info:
+  name: model
+  type: carbon
+  bowls:
+    # 炭碗的位置 输入4个碳碗的x坐标
+    - bowl: {work_name: bowl1, x: 0.340, y: 0.330, z: 0.625, slot_angle: -15, bowl_depth: 0.11, radius: 0.12, inner_radius: 0.105, slot_cnt: 6}
+    - bowl: {work_name: bowl2, x: 0.680, y: 0.330, z: 0.625, slot_angle: -15, bowl_depth: 0.11, radius: 0.12, inner_radius: 0.105, slot_cnt: 6}
+    - bowl: {work_name: bowl3, x: 1.020, y: 0.330, z: 0.625, slot_angle: -15, bowl_depth: 0.11, radius: 0.12, inner_radius: 0.105, slot_cnt: 6}
+    - bowl: {work_name: bowl4, x: 1.360, y: 0.330, z: 0.625, slot_angle: -15, bowl_depth: 0.11, radius: 0.12, inner_radius: 0.105, slot_cnt: 6}
+  # 炭块的高度
+  height: 0.635 
+  # 炭块的长度
+  length: 1.700
+  # 炭块的宽度
+  width: 0.660
+  # 炭块小台面的高度
+  steps: 0.55
+  # 炭块模型pcd保存路径
+  model_file: ""
+
+# 清理顶面的信息
+around_bowl_top:
+  type: tra
+  postion: top
+  top_face_work: top_face_work
+  vel_tcp: 0.5
+  vel_ori: 100
+  # 轨迹起始点在炭块哪侧 true:左侧 false:右侧
+  is_start_side: true
+  # 刀具是否旋转360度 true:旋转 false:不旋转
+  is_traj_rot: true
+  # 刀具旋转方向 true:顺时针 false:逆时针
+  is_traj_ori: true
+  # 接触前炭块高度补偿
+  safe_z_offset: 0.05
+  # 圆半径补偿
+  circle_radius_offset: -0.01
+
+# 清理碳碗的信息 (默认前端命名规则,按照x从小到大的顺序分别为bowl1>bowl2>bowl3>bowl4) 根感知部分需要对应上.
+# 如果碳碗是并排的4个,需要跟感知沟通定位对应的顺序(建议默认为优先x小y小)
+bowl:
+  type: tra
+  postion: bowl
+  into_vel_tcp: 0.05
+  into_vel_ori: 10
+  out_vel_tcp: 0.1
+  out_vel_ori: 20
+  slot_into_step: 0.005
+  bowls_seq: [bowl1, bowl2, bowl3, bowl4]
+
+four_circle_slop:
+  type: tra
+  postion: slop
+  left_slop_work: left_slop_work
+  remote_slop_work: remote_slop_work
+  right_slop_work: right_slop_work
+  near_slop_work: near_slop_work
+  vel_tcp: 0.3
+  vel_ori: 60
+  # 最外侧两个碳碗圆心点偏差,其圆心点不是碳碗圆心,都向外有位移
+  out_circle_x_to_bowl: 0.02
+  #远机械臂左侧半圆衔接romote_bowl4圆弧的半径
+  romote_left_cicle_x: 0.320 
+  romote_left_cicle_y: 0.190
+  #远机械臂右侧侧半圆衔接romote_bowl1圆弧的半径
+  romote_right_cicle_x: 1.380
+  romote_right_cicle_y: 0.190
+  #近机械臂左侧半圆衔接romote_bowl4圆弧的半径
+  near_left_cicle_x: 0.320
+  near_left_cicle_y: 0.470
+  #近机械臂右侧侧半圆衔接romote_bowl1圆弧的半径
+  near_right_cicle_x: 1.380
+  near_right_cicle_y: 0.470
+  # 远机械臂端外左测斜面的圆心，
+  remote_bowl1_2_x: 0.511
+  remote_bowl1_2_y: 0.880
+  # 远机械臂端外中间斜面的圆心
+  remote_bowl2_3_x: 0.850
+  remote_bowl2_3_y: 0.880
+  # 远机械臂端外右侧斜面的圆心
+  remote_bowl3_4_x: 1.189
+  remote_bowl3_4_y: 0.880
+  #近机械臂端外左测斜面的圆心
+  near_bowl1_2_x: 0.511
+  near_bowl1_2_y: -0.220
+  # 近机械臂端外中间斜面的圆心
+  near_bowl2_3_x: 0.850
+  near_bowl2_3_y: -0.220
+  # 近机械臂端外右侧斜面的圆心
+  near_bowl3_4_x: 1.189
+  near_bowl3_4_y: -0.220
+  # 最外侧两个斜面圆的半径
+  out_circle_radius: 0.252
+  #斜面大的内圆半径 400
+  inner_slop_circle_big_radius: 0.410
+  #斜面小的内圆半径 260 
+  inner_slop_circle_small_radius: 0.262
+  #斜面外圆半径
+  out_slop_circle_radius: 0.314
+  # 中间两个碳碗斜面的倾斜角度
+  bowl2_bowl3_angle: -48.2
+  # 最外侧圆近端面和远端面的倾斜角度,外凸圆角度
+  insice_circle_angle: -48.8
+  # bowl4 bowl1 最外侧圆倾斜角度
+  out_circle_angle: -25.8
+  # bowl1-2,bowl2-3,bowl3-3间中点圆弧的倾斜角度,内凹圆角度
+  two_circle_middle_angle: -50.5
+  # 
+
+circle_slop:
+  type: tra
+  postion: slop
+  left_slop_work: left_slop_work
+  remote_slop_work: remote_slop_work
+  right_slop_work: right_slop_work
+  near_slop_work: near_slop_work
+  vel_tcp: 0.3
+  vel_ori: 60
+
+  # 轨迹旋转方向 true:顺时针 false:逆时针
+  traj_ori: true
+  # 轨迹整体偏移量
+  x_offset: 0.0
+  y_offset: 0.0
+  z_offset: 0.0
+  # 内圆心位置x方向增量
+  bowl1_x_offset: 0
+  bowl2_x_offset: 0
+  bowl3_x_offset: 0
+  bowl4_x_offset: 0
+  # 贴近炭块前的安全高度
+  safe_z_offset: 0.05
+  # 内圆轨迹半径增量 越大越远离炭块
+  circle_radius_offset: 0
+  # 内圆左右两端的倾斜角度
+  start_angle: 50
+  # 内圆近端面和远端面的倾斜角度
+  inside_angle: 40
+  # 两个碳碗中间斜面的倾斜角度
+  outside_angle: 45
+  # 内圆半径
+  inside_circle_radius: 0.295
+  # 外圆半径
+  outside_circle_radius: 0.050
+  # 两端90度圆的旋转轨迹点数
+  quat_rot_cnt: 18
+  # 内圆和外圆交替的小段圆弧轨迹点数
+  inside_rot_cnt: 6
+  outside_rot_cnt: 7
+
+circle_steps:
+  type: tra
+  postion: steps
+  left_steps_work: left_steps_work
+  near_steps_work: near_steps_work  
+  right_steps_work: right_steps_work
+  remote_steps_work: remote_steps_work
+  vel_tcp: 0.3
+  vel_ori: 60
+
+  # 刀具旋转方向 true:顺时针 false:逆时针
+  is_traj_ori: true
+  # 左右两端刀具下压前需要先旋转跳过的轨迹 true:跳过 false:不跳过
+  is_enter_knife_traj: true
+  # 近远两端的凹槽处 向外清理的小段轨迹 true:清理 false:不清理
+  is_extra_traj: false
+  # 轨迹整体偏移量
+  x_offset: 0.0
+  y_offset: 0.0
+  z_offset: 0.0
+  # 内圆心位置x方向增量
+  bowl1_x_offset: 0
+  bowl2_x_offset: 0
+  bowl3_x_offset: 0
+  bowl4_x_offset: 0
+  # 贴近炭块前的安全高度
+  safe_z_offset: 0.05
+  # 内圆轨迹半径增量 越大越远离炭块
+  circle_radius_offset: 0
+  # 内圆半径
+  inside_circle_radius: 0.295
+  # 外圆半径
+  # outside_circle_radius: 0.1
+  # 两端90度圆的旋转轨迹点数
+  quat_rot_cnt: 18
+  # 内圆和外圆交替的小段圆弧轨迹点数
+  inside_rot_cnt: 6
+  # 三角形的边离台面边沿的距离
+  corner_tri_dis: 0.07
+  # 三角形边长
+  corner_tri_x: 0.110
+  corner_tri_y: 0.115
+  corner_tri_z: 0.0
+  # 左右两侧 刀具下压前需要先旋转跳过的角度和旋转点数
+  enter_knife_angle: 30
+  enter_knife_cnt: 6
+
+  
+four_circle_steps_and_corner:
+  type: tra
+  postion: steps
+  left_steps_work: left_steps_work
+  near_steps_work: near_steps_work  
+  right_steps_work: right_steps_work
+  remote_steps_work: remote_steps_work
+  left_near_corner_work: left_near_corner_work
+  right_near_corner_work: right_near_corner_work
+  right_remote_corner_work: right_remote_corner_work
+  left_remote_corner_work: left_remote_corner_work  
+  vel_tcp: 0.3
+  vel_ori: 60
+  #斜面大的内圆半径 400
+  inner_slop_circle_big_radius: 0.410
+  #斜面小的内圆半径 260 
+  inner_slop_circle_small_radius: 0.262
+  #斜面外圆半径
+  out_slop_circle_radius: 0.314
+  # 最外侧两个碳碗圆心点偏差,其圆心点不是碳碗圆心,都向外有位移
+  out_circle_x_to_bowl: 0.02
+  # 远机械臂端外左测斜面的圆心，
+  remote_bowl1_2_x: 0.511
+  remote_bowl1_2_y: 0.880
+  # 远机械臂端外中间斜面的圆心
+  remote_bowl2_3_x: 0.850
+  remote_bowl2_3_y: 0.880
+  # 远机械臂端外右侧斜面的圆心
+  remote_bowl3_4_x: 1.189
+  remote_bowl3_4_y: 0.880
+  #近机械臂端外左测斜面的圆心
+  near_bowl1_2_x: 0.511
+  near_bowl1_2_y: -0.220
+  # 近机械臂端外中间斜面的圆心
+  near_bowl2_3_x: 0.850
+  near_bowl2_3_y: -0.220
+  # 近机械臂端外右侧斜面的圆心
+  near_bowl3_4_x: 1.189
+  near_bowl3_4_y: -0.220
+  #近机械臂左侧半圆衔接romote_bowl4圆弧的半径
+  near_left_cicle_x: 0.320
+  near_left_cicle_y: 0.470
+  #近机械臂右侧侧半圆衔接romote_bowl1圆弧的半径
+  near_right_cicle_x: 1.380
+  near_right_cicle_y: 0.470
+  #远机械臂左侧半圆衔接romote_bowl4圆弧的半径
+  romote_left_cicle_x: 0.320
+  romote_left_cicle_y: 0.190
+  #远机械臂右侧侧半圆衔接romote_bowl1圆弧的半径
+  romote_right_cicle_x: 1.380
+  romote_right_cicle_y: 0.190
+  # 用刷子清理转角面的最低高度
+  brush_clean_corner_min_z: 0
+  
+no_corner_surround:
+  type: tra
+  postion: surround
+  near_surround_work: near_surround_work
+  left_surround_work: left_surround_work
+  remote_surround_work: remote_surround_work
+  right_surround_work: right_surround_work
+  vel_tcp: 0.4
+  vel_ori: 80
+  # 角落的长度
+  corner_length: 0.02
+  # 清理侧面上部分的z位置 steps_z - side_knife_radius + 0.01
+  surround_clean_z_middle: 0.405
+  surround_clean_z_low: 0.21
+  # 不接触炭块,安全回退距离
+  safe_back_distance: 0.03
+  # 刀具左侧清理死角部分的位置
+  knife_left_dead_corner_dis: 0.09
+  # 刀具右侧清理死角部分的位置 0.12
+  knife_right_dead_corner_dis: 0.14
+  # 清理斜面时刀具的倾斜角度
+  surround_angle: 0
+  # 是否清理侧面时，向下多清理半个小刀
+  is_clean_surround_low: true

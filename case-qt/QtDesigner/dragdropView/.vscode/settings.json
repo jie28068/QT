@@ -1,0 +1,40 @@
+{
+    "files.associations": {
+        "qvboxlayout": "cpp",
+        "qwidget": "cpp",
+        "qpaintevent": "cpp",
+        "qpushbutton": "cpp",
+        "qstackedwidget": "cpp",
+        "qhboxlayout": "cpp",
+        "qmimedata": "cpp",
+        "qmouseevent": "cpp",
+        "qlabel": "cpp",
+        "qobject": "cpp",
+        "qlineedit": "cpp",
+        "qpixmap": "cpp",
+        "qicon": "cpp",
+        "qdropevent": "cpp",
+        "qtreeview": "cpp",
+        "qvector": "cpp",
+        "qtextedit": "cpp",
+        "qdockwidget": "cpp",
+        "qproxystyle": "cpp",
+        "qlist": "cpp",
+        "qstatusbar": "cpp",
+        "qdragenterevent": "cpp",
+        "qvariant": "cpp",
+        "qabstractitemmodel": "cpp",
+        "qstringlist": "cpp",
+        "qmap": "cpp",
+        "*.moc": "cpp"
+    },
+    "cmake.debugConfig": {
+        "visualizerFile": "${workspaceFolder}/.vscode/Qt5.natvis",
+        "symbolSearchPath": "C:\\Qt\\Qt5.15.2\\Qt\\5.15.2\\msvc2019_64\\bin",
+        "sourceFileMap": {
+            "c:\\Users\\qt\\work\\qt": "C:\\Qt\\Qt5.15.2\\Qt\\5.15.2\\Src"
+        }
+    }
+    //"${env:Qt5_DIR}/bin"
+    //"${env:Qt5_DIR}/../Src"
+}
